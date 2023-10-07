@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="music.css" />
+    <script src="https://kit.fontawesome.com/9c80ceac96.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <h1>music <span>player</h1>
+    </header>
+    
+    <main>
+        <div class="main-player">
+            <nav>
+            <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+               
+            </div>
+        <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <img src="images/charle.jpeg" class="img-song" alt="imge of the singer">
+    
+    <h1 >attention</h1>
+    <p>charle puth</p>
+    <audio  id="songs">
+        <source src="music/Charlie.mp3" type="audio/mpeg">
+    </audio>
+    <input type="range" name="progress" id="progress" value="0">
+    <div class="controls">
+        <div id="forward-btn">
+            <i class="fa-solid fa-backward"></i></div>
+          <div onclick="playsong()">  <i  class="fa-solid fa-play" id="ctrlicon"></i></div>
+           <div id="backward-btn" >
+            <a href="regist.html">  <i class="fa-solid fa-forward"></i></a>
+            
+            </div>
+        
+    </div>
+        </div>
+      
+    </main>
+    
+    
+    <script src="music.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>

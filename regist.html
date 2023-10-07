@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+    <link rel="stylesheet" href="music.css">
+
+</head>
+<body>
+    <h1>CREATE NEW ACOUNTE</h1>
+
+    <div class="reg-form">
+
+<form action="login.html" >
+    <div class="inputs">
+  
+    <label for="username">username: </label>
+    <input type="text" id="Lname"  name="username" placeholder="username " maxlength="8" minlength="3" required>
+   
+ 
+     <label for="email">email: </label>
+     <input type="email" id="email" name="email" placeholder="enter your email" required>
+    
+ 
+     <label for="password"> enter your password: </label>
+     <input type="password" id="password" name="password" placeholder="your password" maxlength="15" min="8" required>
+    
+    
+       <label for="Rpassword">re-enter your password: </label>
+      <input type="password" id="Rpassword" name="Rpassword" placeholder="your password" maxlength="15" min="8" required>
+     
+     
+    </div>
+    <label for="age" onclick="popup()" >your age:</label>
+    <input type="number" name="age" id="age" placeholder="your age ">
+      <br><br>
+   
+    
+     
+    <label for="gender">gender: </label> 
+     <select name="gender" id="gender" required >
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+    </select> <br><br>
+   
+    
+     <input type="submit" value="CREATE" class="registerbtn">
+     <br><br>
+    <hr>
+    <div class="login-link">
+    <label for="signIN">already have acount ?</label>
+    <a id="signIN" href="login.html">login</a>
+</div>
+</form>
+</div>
+<script src="music.js"></script>
+</body>
+</html>
